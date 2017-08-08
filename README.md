@@ -93,3 +93,6 @@ class-fall-2017
 5. You can either edit all the assignments by typing comments into their documents, or by adding a new file with comments to each student's repository. If there is only one document that students will be editing, then it's possible to open up each student's document, put in your changes, and then save. We don't recommend putting in the official assignment grade into your comments due to privacy issues. 
 
 6. After saving (you have to save!) your changes and/or new files, navigate to the `mass_clone` directory. Type in `./push_all.sh assignment-prefix`. This script will commit all of your changes with the same commit message ("Graded <date> <time>"), and then push all of the changes back to the students' repositories. 
+
+### Additional resources
+* https://classroom.github.com/videos
