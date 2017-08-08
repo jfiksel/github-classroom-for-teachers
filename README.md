@@ -14,6 +14,8 @@ This is a guide for using GitHub Classroom to assist or run your class. We are u
 
 5. (Optional). You can manually add students via email to the organization as members. However, once you send out (and they accept) the first assignment, they should automatically join the organization.
 
+6. (Optional). Edit the README.md of the current year's classroom organization to be the class syllabus. You can also add a repository with non-assignment material so that the students can clone and pull changes in an organized manner throughout the semester. We are a little bit worried about creating merge-conflicts with this system and are thinking about solutions to avoid this. 
+
 ### Sending out individual assignments
 1. Make the assignment repo in the master organization. This can include all starter code, data, etc... Be smart about naming your repository. Remember, there are no spaces allowed in GitHub repository names. We recommend using the dash "-" to separate words and numbers. A couple examples of assignment names we have used are "test-assignment" and "unit-1-assignment-1". 
 
