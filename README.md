@@ -12,7 +12,7 @@ This is a guide for using GitHub Classroom to assist or run your class. We are u
 
 4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" and save these changes. This will make it so that students cannot change non-assignment repositories in the organization.
 
-5. (Optional). You can manually add students via email to the organization as members. However, once you send out (and they accept) the first assignment, they should automatically join the organization.
+5. Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class. Luckily, once you send out (and they accept) the first assignment, they will be added to the organization as outside collaborators. If you go to the People section of the organization and click on Outside collaborators, you should be able to click on the gear icon next to each student's name and click invite to organization. Once the students accept the invitation, they should be removed from the outside collaborator panel into the members panel. While this is still some work, you do have a nice way of checking who has accepted the invitation.
 
 6. (Optional). Edit the README.md of the current year's classroom organization to be the class syllabus. You can also add a repository with non-assignment material so that the students can clone and pull changes in an organized manner throughout the semester. We are a little bit worried about creating merge-conflicts with this system and are thinking about solutions to avoid this. 
 
