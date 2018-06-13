@@ -22,7 +22,7 @@ If you want the assignments to be private, you can apply for an educational disc
 
 ![Alt Text](http://g.recordit.co/wMNvSst6hA.gif)
 
-    You will also want to create a team for the students. When you are in the viewing mode for the organization, click on the "Teams" panel. Click "New team" and name this team "students".
+You will also want to create a team for the students. When you are in the viewing mode for the organization, click on the "Teams" panel. Click "New team" and name this team "students".
 
 ![Alt Text](http://g.recordit.co/3wH4N0L9eZ.gif)
 
