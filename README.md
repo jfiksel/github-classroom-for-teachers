@@ -4,11 +4,19 @@ This is a guide for using GitHub Classroom to assist or run your class. We are u
 
 
 ### Setting up GitHub Classroom:
-1. If you plan on repeating the class in future semesters, set up a "master" classroom organization. If you are teaching a class titled "Intro to Statistics", we recommend calling this organization intro-statistics-master, or something similar. We use this organization to host all assignments that will be used in the current and future versions of the class. Each assignment should be its own repository. When using GitHub classroom to send out assignments, we can use repositories from this organization as starter code. If changes need to be made for future years, you can change the repository in the organization without affecting the current version of the class. The GIF below shows how to create an organizatio on GitHub
+1. If you plan on repeating the class in future semesters, set up a "master" classroom organization. If you are teaching a class titled "Intro to Statistics", we recommend calling this organization intro-statistics-master, or something similar. We use this organization to host all assignments that will be used in the current and future versions of the class. Each assignment should be its own repository. When using GitHub classroom to send out assignments, we can use repositories from this organization as starter code. If changes need to be made for future years, you can change the repository in the organization without affecting the current version of the class. The GIF below shows how to create an organization on GitHub
 
 ![Alt Text](http://g.recordit.co/k16ii87Xuc.gif)
 
-If you want the assignments to be private, you can apply for an educational discount that will grant the organization unlimited repositories. Go to https://github.com/settings/connections/applications/64a051cf1598b9f0658f and grant GitHub Classroom organizational access to the master organization.
+Go to https://github.com/settings/connections/applications/64a051cf1598b9f0658f and grant GitHub Classroom organizational access to the master organization.
+
+![Alt Text](http://g.recordit.co/q7bSEJNZVs.gif)
+
+If you want the assignments to be private, you can apply for an educational discount that will grant the organization unlimited repositories. The link for the application is here: https://education.github.com/discount_requests/new. The GIF below shows the beginning of the application process
+
+
+![Alt Text](http://g.recordit.co/vfVgVY4bgm.gif)
+
 
 2.  Make an organization for the current version of the class titled something similar to intro-statistics-fall-2017 (or whatever semester and year you're teaching). Apply again for unlimited private repositories for this class so that individual assignments can be private (preventing potential cheating). Go to https://classroom.github.com/classrooms and click "New classroom" in the upper right corner. Choose the class you are currently teaching. Note that this step will have to be repeated for each semester.
 
@@ -16,11 +24,11 @@ If you want the assignments to be private, you can apply for an educational disc
 
 3. Add all other teachers and TAs to the organizations as owners.
 
-4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" (if it's not already) and save these changes. This will make it so that students cannot change non-assignment repositories in the organization. 
+4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" (if it's not already) and save these changes. This will make it so that students cannot change non-assignment repositories in the organization.
 
-5.  Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class. 
+5.  Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class.
 
-    A more (but not fully) automated way to do this is by sending out an assignment. This can be the first assignment of the class, such as a practice homework or bootcamp type assignment. Once you send out (and they accept) the first assignment, they will be added to the organization as outside collaborators. See the next section for instructions on creating and giving access to assignments. 
+    A more (but not fully) automated way to do this is by sending out an assignment. This can be the first assignment of the class, such as a practice homework or bootcamp type assignment. Once you send out (and they accept) the first assignment, they will be added to the organization as outside collaborators. See the next section for instructions on creating and giving access to assignments.
 
     If you want students to be organization members, rather than just outside collaborators, do the following. Go to the People section of the organization and click on Outside collaborators. Click on the gear icon next to each student's name and click invite to organization. In this invitation pop-up window, you should also see an option to add them to the students team--you should do this. Once the students accept the invitation, they should be removed from the outside collaborator panel into the members panel. They will also be added to the students team. While this is still some work, you do have a nice way of checking who has accepted the invitation.
 
