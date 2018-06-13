@@ -10,28 +10,38 @@ This is a guide for using GitHub Classroom to assist or run your class. We are u
 
 If you want the assignments to be private, you can apply for an educational discount that will grant the organization unlimited repositories. Go to https://github.com/settings/connections/applications/64a051cf1598b9f0658f and grant GitHub Classroom organizational access to the master organization.
 
-2. Make an organization for the current version of the class titled something similar to intro-statistics-fall-2017 (or whatever semester and year you're teaching). Apply again for unlimited private repositories for this class so that individual assignments can be private (preventing potential cheating). Go to https://classroom.github.com/classrooms and click "New classroom" in the upper right corner. Choose the class you are currently teaching. Note that this step will have to be repeated for each semester.
+2.  Make an organization for the current version of the class titled something similar to intro-statistics-fall-2017 (or whatever semester and year you're teaching). Apply again for unlimited private repositories for this class so that individual assignments can be private (preventing potential cheating). Go to https://classroom.github.com/classrooms and click "New classroom" in the upper right corner. Choose the class you are currently teaching. Note that this step will have to be repeated for each semester.
+
+    You will also want to create a team for the students. When you are in the viewing mode for the organization, click on the "Teams" panel. Click "New team" and name this team "students".
 
 3. Add all other teachers and TAs to the organizations as owners.
 
-4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" and save these changes. This will make it so that students cannot change non-assignment repositories in the organization.
+4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" (if it's not already) and save these changes. This will make it so that students cannot change non-assignment repositories in the organization. 
 
-5. Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class. Luckily, once you send out (and they accept) the first assignment, they will be added to the organization as outside collaborators. If you go to the People section of the organization and click on Outside collaborators, you should be able to click on the gear icon next to each student's name and click invite to organization. Once the students accept the invitation, they should be removed from the outside collaborator panel into the members panel. While this is still some work, you do have a nice way of checking who has accepted the invitation.
+5.  Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class. 
 
-6. (Optional). Edit the README.md of the current year's classroom organization to be the class syllabus. You can also add a repository with non-assignment material so that the students can clone and pull changes in an organized manner throughout the semester. We are a little bit worried about creating merge-conflicts with this system and are thinking about solutions to avoid this.
+    A more (but not fully) automated way to do this is by sending out an assignment. This can be the first assignment of the class, such as a practice homework or bootcamp type assignment. Once you send out (and they accept) the first assignment, they will be added to the organization as outside collaborators. See the next section for instructions on creating and giving access to assignments. 
+
+    If you want students to be organization members, rather than just outside collaborators, do the following. Go to the People section of the organization and click on Outside collaborators. Click on the gear icon next to each student's name and click invite to organization. In this invitation pop-up window, you should also see an option to add them to the students team--you should do this. Once the students accept the invitation, they should be removed from the outside collaborator panel into the members panel. They will also be added to the students team. While this is still some work, you do have a nice way of checking who has accepted the invitation.
+
+    Note the difference between outside collaborators and members. Outside collaborators only have access to repositories that their team membership allows. Outside collaborators cannot create teams or view all the organization's members and teams. If you're only using GitHub Classroom for personal assignments and not for other class materials, it is probably fine to leave everyone as an outside collaborator. However, if you have a private shared repository (such as class material outside of homeworks), you'll probably want to have teams. In this case, I would make all students members of the organization.
+
+6.  (Optional). Create a repository (or multiple repositories) that will contain shared information, such a class syllabus, lectures, homework solutions, etc... This will be done in this year's classroom organization, although you can create it in the master organization, and then fork it over for each new class. Of course, you don't have to do this at the beginning of the class, and can add new repositories as you go along. The idea is that students can clone these repositories at the beginning of the year, and then pull in changes. However, please be aware of the possibility for merge conflicts, and think of ways to reduce them.
+
+    If this repository is private, go into the repository, then go to Settings -> Collaborators & teams. Then add the "students" team to have read access to this repo. Done!
 
 ### Sending out individual assignments
 1. Make the assignment repo in the master organization. This can include all starter code, data, etc... Be smart about naming your repository. Remember, there are no spaces allowed in GitHub repository names. We recommend using the dash "-" to separate words and numbers. A couple examples of assignment names we have used are "test-assignment" and "unit-1-assignment-1".
 
 2. Go to https://classroom.github.com/classrooms and click on the current class organization. Click new assignment, then create an individual assignment.
 
-3. Use the repistory name as the assignment name. You can skip the "Your assignment repository prefix" box, as this should automatically be filled in with the assignment name.
+3. Use the repository name as the assignment name. You can skip the "Your assignment repository prefix" box, as this should automatically be filled in with the assignment name.
 
 4. Unless you want all of the students to see each others' assignments, click Private repository.
 
 5. Add the assignment from your master organization as the starter code. You will probably have to manually type out the organization name for all available repositories to show up.
 
-6. Copy the invitation link and send this out in a mass email to students. Students should now be able to click on this link to set up the repository.
+6. Copy the invitation link and give students access to the link, either through a mass email and/or posting it somewhere that all the students have access to. Be somewhat careful of not posting this to a publically available place, as anyone with access to the link can then create their own assignment (why they would do this, who knows). Students should now be able to click on this link to set up the repository.
 
 ### Grading assignments
 Before I go into the steps on how to do this, I'll mention that this step will probably vary from teacher-to-teacher. If you have a different workflow from us, please feel free to share how you grade assignments from GitHub!
