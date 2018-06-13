@@ -47,17 +47,21 @@ Note the difference between outside collaborators and members. Outside collabora
 ![Alt Text](http://g.recordit.co/gUvGz4jQrD.gif)
 
 ### Sending out individual assignments
-1. Make the assignment repo in the master organization. This can include all starter code, data, etc... Be smart about naming your repository. Remember, there are no spaces allowed in GitHub repository names. We recommend using the dash "-" to separate words and numbers. A couple examples of assignment names we have used are "test-assignment" and "unit-1-assignment-1".
+1. Make the assignment repo in the master organization. This can include all starter code, data, etc... Be smart about naming your repository. Remember, there are no spaces allowed in GitHub repository names. We recommend using the dash "-" to separate words and numbers. A couple examples of assignment names we have used are "test-assignment" and "unit-1-assignment-1". In the example below we make this a public repository, but you can make it a private repository if you don't want others to see your class assignments.
+
+![Alt Text](http://g.recordit.co/EmPa2zlQQ3.gif)
 
 2. Go to https://classroom.github.com/classrooms and click on the current class organization. Click new assignment, then create an individual assignment.
 
 3. Use the repository name as the assignment name. You can skip the "Your assignment repository prefix" box, as this should automatically be filled in with the assignment name.
 
-4. Unless you want all of the students to see each others' assignments, click Private repository.
+4. Unless you want all of the students to see each others' assignments, click Private repository. However, we make this a public repository in the example below.
 
 5. Add the assignment from your master organization as the starter code. You will probably have to manually type out the organization name for all available repositories to show up.
 
 6. Copy the invitation link and give students access to the link, either through a mass email and/or posting it somewhere that all the students have access to. Be somewhat careful of not posting this to a publically available place, as anyone with access to the link can then create their own assignment (why they would do this, who knows). Students should now be able to click on this link to set up the repository.
+
+![Alt Text](http://g.recordit.co/H8N2YlVcbV.gif)
 
 ### Grading assignments
 Before I go into the steps on how to do this, I'll mention that this step will probably vary from teacher-to-teacher. If you have a different workflow from us, please feel free to share how you grade assignments from GitHub!
@@ -90,7 +94,7 @@ class-fall-2017
 3. Edit the `clone_all_helper_example.sh` script so that your class specific organization and your username replaces the default settings in the organization and username fields
 
 4. When you are ready to edit all the assignments, go to the terminal and navigate to the `mass_clone` repository. Type in `./clone_all_helper_example.sh`. You can then enter in the assignment prefix when prompted (or just type `./clone_all_helper_example.sh assignment-prefix`). For example, if we are grading `unit-1-homework-1`, then I would type in
-`./clone_all_helper_example.sh unit-1-homework-1`. You will then be prompted to enter your GitHub password. Unfortunately, you will have to enter in the password everytime you do this step, even if you have SSH set up (which you should!). Your directory structure will now look like this
+`./clone_all_helper_example.sh unit-1-homework-1`. You will then be prompted to enter your GitHub password. Unfortunately, you will have to enter in the password every time you do this step, even if you have SSH set up (which you should!). Your directory structure will now look like this
 
 ```
 class-fall-2017
