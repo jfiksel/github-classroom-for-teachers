@@ -91,6 +91,10 @@ class-fall-2017
         |   push_all.sh
 ```
 
+Here are the commands that I used in my terminal to do the above:
+
+![Alt Text](img/grading-dirs.png)
+
 3. Edit the `clone_all_helper_example.sh` script so that your class specific organization and your username replaces the default settings in the organization and username fields
 
 4. When you are ready to edit all the assignments, go to the terminal and navigate to the `mass_clone` repository. Type in `./clone_all_helper_example.sh`. You can then enter in the assignment prefix when prompted (or just type `./clone_all_helper_example.sh assignment-prefix`). For example, if we are grading `unit-1-homework-1`, then I would type in
