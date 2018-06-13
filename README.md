@@ -44,6 +44,8 @@ Note the difference between outside collaborators and members. Outside collabora
 
     If this repository is private, go into the repository, then go to Settings -> Collaborators & teams. Then add the "students" team to have read access to this repo. Done!
 
+![Alt Text](http://g.recordit.co/gUvGz4jQrD.gif)
+
 ### Sending out individual assignments
 1. Make the assignment repo in the master organization. This can include all starter code, data, etc... Be smart about naming your repository. Remember, there are no spaces allowed in GitHub repository names. We recommend using the dash "-" to separate words and numbers. A couple examples of assignment names we have used are "test-assignment" and "unit-1-assignment-1".
 
