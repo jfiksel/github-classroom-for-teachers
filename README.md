@@ -18,9 +18,13 @@ If you want the assignments to be private, you can apply for an educational disc
 ![Alt Text](http://g.recordit.co/vfVgVY4bgm.gif)
 
 
-2.  Make an organization for the current version of the class titled something similar to intro-statistics-fall-2017 (or whatever semester and year you're teaching). Apply again for unlimited private repositories for this class so that individual assignments can be private (preventing potential cheating). Go to https://classroom.github.com/classrooms and click "New classroom" in the upper right corner. Choose the class you are currently teaching. Note that this step will have to be repeated for each semester.
+2.  Using the same process as above, create an organization for the current version of the class titled something similar to intro-statistics-fall-2017 (or whatever semester and year you're teaching). Grant GitHub Classroom organizational access to the organization. In addition, apply for unlimited private repositories for this class so that individual assignments can be private (preventing potential cheating). Go to https://classroom.github.com/classrooms and click "New classroom" in the upper right corner. Choose the class you are currently teaching. Note that this step will have to be repeated for each semester.
+
+![Alt Text](http://g.recordit.co/wMNvSst6hA.gif)
 
     You will also want to create a team for the students. When you are in the viewing mode for the organization, click on the "Teams" panel. Click "New team" and name this team "students".
+
+    ![Alt Text](http://g.recordit.co/3wH4N0L9eZ.gif)
 
 3. Add all other teachers and TAs to the organizations as owners.
 
