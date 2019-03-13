@@ -13,3 +13,12 @@
 
 1. Create an organization for the class: IB-CS-Master-18-19
 1. Go to your [GitHub Classroom settings](https://github.com/settings/connections/applications/64a051cf1598b9f0658f) and grant **organization access** to the class organization you created.
+1. Go to your [GitHub Classroom home page](https://classroom.github.com/classrooms) and click on the **Create Classroom** button to create a new classroom for this class. You will be prompted to:
+   - Select the organization that you created for the class, the name is truncated, so it helps to remember the avatar (it is also likely to be the last one).
+   - Rename the classroom.
+   - Add additional administrators.
+   - Create the class roster (you can skip this step and return to do it later).
+   - Create the first assignment (you can do this later too).
+
+
+## Individual vs. Group Assignments.
