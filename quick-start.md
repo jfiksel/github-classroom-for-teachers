@@ -2,7 +2,7 @@
 
 ## Once per teacher / program
 
-1. Set up a GitHub Classroom account.
+1. Set up a free [GitHub Classroom](https://education.github.com/discount_requests/new) account.
 
 ## Once per course (class that you anticipate teaching multiple times)
 
