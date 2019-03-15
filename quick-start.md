@@ -18,7 +18,8 @@
    - Rename the classroom.
    - Add additional administrators.
    - Create the class roster (you can skip this step and return to do it later).
-   - Create the first assignment (you can do this later too).
+   - Create the first assignment (click on the button, but you won't create the assignment unless you have alread requested private repos).
+1. In the assigment interface, click on the button to request private repos. To complete the request, you will need an image of your staff ID showing the current academic year.
 
 
 ## Individual vs. Group Assignments.
