@@ -140,5 +140,14 @@ And here is a GIF showing how to do the above:
 
 6. After saving (you have to save!) your changes and/or new files, navigate to the `mass_clone` directory. Type in `./push_all.sh assignment-prefix`. This script will commit all of your changes with the same commit message ("Graded $date $time"), and then push all of the changes back to the students' repositories.
 
+### Alternate Grading method using Pull requests
+In the previous method of pulling down students’ work, adding a commit to their work, and pushing it back up is a good simple approach. Another way of grading would be for students to take advantage of GitHub's pull requests. In the following steps we will go into how this can be conducted:
+1.  In order to do this, students would need to create a branch off the master to do their assignment. 
+2.  Students would then make their changes in the branch 
+3. When they are ready to submit to be graded, they would follow this tutorial on how to create [pull requests](https://help.github.com/en/articles/creating-a-pull-request). Here is example of what a pull request looks like with feedback: [example](https://github.com/acorbin3/Math-Project/pull/2)
+4. The instructors will add comments in this pull request. Depending on how you want to operate, you could allow for additional changes to give the student an opportunity to improve their code and grade. Opinion from @acorbin3 - I know this can be controversial, but at least in the software industry this is how software is development and I feel that us as instructors it’s our job to prepare students to be successful in the industry and that we should simulate this as much as we can.
+
+This doesn’t address the part where we need running and testing the assignments. We can follow the same steps to pull down peoples’ assignments in [Grading assignments](#grading-assignments) and run the assignments. There is another approach to set up automated test using TravisCI. Here is a blog post that goes into details on this approach [Real-time feedback for students using continuous integration tools](https://github.blog/2017-03-01-real-time-feedback-for-students-using-continuous-integration-tools/). Also here is a recent (2019) success story of this approach in action where they boosted their passing rate from 76 to 90% [How GitHub Classroom and Travis CI improved students’ grades](https://github.blog/2019-02-12-how-github-classroom-and-travis-ci-improved-students-grades/)
+
 ### Additional resources
 * https://classroom.github.com/videos
