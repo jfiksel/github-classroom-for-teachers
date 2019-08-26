@@ -28,7 +28,7 @@ You will also want to create a team for the students. When you are in the viewin
 
 3. Add all other teachers and TAs to the organizations as owners.
 
-4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Default repository permission to "none" (if it's not already) and save these changes. This will make it so that students cannot change non-assignment repositories in the organization.
+4. Go to the current year's version of the classroom organization. Under settings, go to member privileges. Change Base permissions to "none" (if it's not already) and save these changes. This will make it so that students cannot change non-assignment repositories in the organization.
 
 5.  Add students to the organization. You can do in this two ways. The first is by manually adding students via email to the organization as members. This can be quite a pain if you have more than 5 students in your class.
 
