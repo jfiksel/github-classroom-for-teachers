@@ -150,5 +150,5 @@ In the previous method of pulling down students’ work, adding a commit to thei
 This doesn’t address the part where we need running and testing the assignments. We can follow the same steps to pull down peoples’ assignments in [Grading assignments](#grading-assignments) and run the assignments. There is another approach to set up automated test using TravisCI. Here is a blog post that goes into details on this approach [Real-time feedback for students using continuous integration tools](https://github.blog/2017-03-01-real-time-feedback-for-students-using-continuous-integration-tools/). Also here is a recent (2019) success story of this approach in action where they boosted their passing rate from 76 to 90% [How GitHub Classroom and Travis CI improved students’ grades](https://github.blog/2019-02-12-how-github-classroom-and-travis-ci-improved-students-grades/)
 
 ### Additional resources
-* https://classroom.github.com/videos
-* https://ecots2018.github.io/ another great guide from Adam Sullivan at Brown University
+* https://www.youtube.com/playlist?list=PLIRjfNq867bewk3ZGV6Z7a16YDNRCpK3u
+* https://github.blog/2020-03-18-set-up-your-digital-classroom-with-github-classroom/
