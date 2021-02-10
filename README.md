@@ -140,6 +140,8 @@ And here is a GIF showing how to do the above:
 
 6. After saving (you have to save!) your changes and/or new files, navigate to the `mass_clone` directory. Type in `./push_all.sh assignment-prefix` (this is similar to the GIF above). This script will commit all of your changes with the same commit message ("Graded $date $time"), and then push all of the changes back to the students' repositories.
 
+** Note that GitHub has renamed the default branch to main, rather than master (https://github.com/github/renaming). This has now been reflected in an updated verison of the push_all.sh script, which you should use if you are now having issues with using this script. Thanks to Erin Meyer-Gutbrod for pointing this out**
+
 ### Alternate Grading method using Pull requests
 In the previous method of pulling down students’ work, adding a commit to their work, and pushing it back up is a good simple approach. Another way of grading would be for students to take advantage of GitHub's pull requests. In the following steps we will go into how this can be conducted:
 1.  In order to do this, students would need to create a branch off the master to do their assignment. 
